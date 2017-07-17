@@ -63,3 +63,7 @@ typings/
 
 
 # End of https://www.gitignore.io/api/node
+#
+
+# Exclude product build directory from versioning.
+lib/*
