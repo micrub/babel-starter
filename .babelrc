@@ -1,0 +1,23 @@
+{
+    "plugins": [
+        [
+            "transform-es2015-modules-commonjs",
+            {
+                "allowTopLevelThis": true
+            }
+        ],
+    ],
+    "presets": [
+        [
+            "env",
+            {
+                "loose": false,
+                "modules": "umd",
+                "spec": false,
+                "targets": {
+                    "node": "current"
+                }
+            }
+        ]
+    ]
+}

@@ -1,0 +1,40 @@
+{
+  "private": true,
+  "name": "babel-starter",
+  "version": "0.0.1",
+  "description": "Starter template for babeljs based, standalone javascript libraries.",
+  "main": "index.js",
+  "jsnext:main": "index.es.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha --compilers js:babel-register",
+    "test:watch": "./node_modules/mocha/bin/mocha --compilers js:babel-register --reporter min --watch",
+    "build": "npm run clean && ./node_modules/babel-cli/bin/babel.js src -d lib/ && cp package.json lib/",
+    "clean": "rm lib/ -rf"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/micrub/babel-starter.git"
+  },
+  "keywords": [
+    "babel",
+    "template",
+    "starter"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/micrub/babel-starter/issues"
+  },
+  "homepage": "https://github.com/micrub/babel-starter#readme",
+  "dependencies": {
+    "babel-runtime": "^6.23.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.24.1",
+    "babel-preset-env": "^1.6.0",
+    "babel-register": "^6.24.1",
+    "chai": "^4.1.0",
+    "mocha": "^3.4.2"
+  }
+}
