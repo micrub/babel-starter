@@ -1,0 +1,24 @@
+{
+  "name": "babel-starter",
+  "version": "0.0.1",
+  "description": "Starter template for babeljs based, standalone javascript libraries.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/micrub/babel-starter.git"
+  },
+  "keywords": [
+    "babel",
+    "template",
+    "starter"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/micrub/babel-starter/issues"
+  },
+  "homepage": "https://github.com/micrub/babel-starter#readme"
+}
