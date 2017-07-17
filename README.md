@@ -40,3 +40,9 @@ TODO:
 
 Publish product version, based on content of `lib/` directory.
 
+# Dependencies
+
+* https://babeljs.io/docs/usage/babel-register/
+* https://babeljs.io/docs/plugins/preset-env/
+* https://babeljs.io/docs/usage/cli/
+
