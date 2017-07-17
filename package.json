@@ -8,7 +8,7 @@
   "scripts": {
     "test": "./node_modules/mocha/bin/mocha --compilers js:babel-register",
     "test:watch": "./node_modules/mocha/bin/mocha --compilers js:babel-register --reporter min --watch",
-    "build": "npm run clean && babel src -d lib",
+    "build": "npm run clean && ./node_modules/babel-cli/bin/babel.js src -d lib/",
     "clean": "rm lib/ -rf"
   },
   "repository": {
@@ -31,6 +31,7 @@
   },
   "devDependencies": {
     "babel-cli": "^6.24.1",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.24.1",
     "babel-preset-env": "^1.6.0",
     "babel-register": "^6.24.1",
     "chai": "^4.1.0",

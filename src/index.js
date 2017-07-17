@@ -1,8 +1,8 @@
 
 
 import Base from "./Base.js"
-
-export default {
+let mod = {
   Base
 }
+export default mod
 
