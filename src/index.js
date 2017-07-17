@@ -1,2 +1,8 @@
 
-console.log('Entrypoint');
+
+import Base from "./Base.js"
+
+export default {
+  Base
+}
+
