@@ -8,7 +8,7 @@
   "scripts": {
     "test": "./node_modules/mocha/bin/mocha --compilers js:babel-register",
     "test:watch": "./node_modules/mocha/bin/mocha --compilers js:babel-register --reporter min --watch",
-    "build": "npm run clean && ./node_modules/babel-cli/bin/babel.js src -d lib/",
+    "build": "npm run clean && ./node_modules/babel-cli/bin/babel.js src -d lib/ && cp package.json lib/",
     "clean": "rm lib/ -rf"
   },
   "repository": {

@@ -12,11 +12,9 @@
 
 1. Executes tests , if all passing continues to next step.
 1. Cleans destination directory from all content.
-TODO:
-1. builds standalone library based on `src/` directory contents.
+1. builds library as UMD module based on `src/` directory contents.
 1. copies static assets from `src/` and following files:
 1.1 `package.json`
-1.1 `.gitignore`
 
 ### Run **build** script
 
