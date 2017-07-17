@@ -12,8 +12,8 @@
 
 1. Executes tests , if all passing continues to next step.
 1. Cleans destination directory from all content.
-1. builds library as UMD module based on `src/` directory contents.
-1. copies static assets from `src/` and following files:
+1. Builds library as UMD module based on `src/` directory contents.
+1. Copies following files from `src/` :
 1.1 `package.json`
 
 ### Run **build** script
